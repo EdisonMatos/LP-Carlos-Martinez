@@ -45,6 +45,9 @@ export default function Index() {
         instagram={true}
         facebook={true}
         socialPrint={true}
+        threads={true}
+        x={true}
+        linkedin={true}
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
@@ -52,13 +55,16 @@ export default function Index() {
       <Faq colorMode={colorMode} />
       <FooterSocial
         colorMode={colorMode}
-        addres={false}
+        addres={true}
         addresSecundario={false}
-        phoneSecundario={false}
-        phoneTerciario={false}
+        phoneSecundario={true}
+        phoneTerciario={true}
         expedientesecond={false}
         instagram={true}
         facebook={true}
+        threads={true}
+        x={true}
+        linkedin={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

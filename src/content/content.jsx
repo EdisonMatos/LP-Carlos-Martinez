@@ -53,31 +53,34 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "A_Definir",
+  name: "Carlos Martinez Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "A_Definir", // Sem "www"
+  domain: "carlosmartinezadvogado.com.br", // Sem "www"
   phone: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "54",
+    firstPart: "99985", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8016", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "99208", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4672", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "54",
+    firstPart: "99960", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2608", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Alameda Salvador, nº 1057,</p>
+      <p>Ed. Salvador Shopping Business Cyrela,</p>
+      <p>Torre América, Sala 1313,</p>
+      <p>Caminho das Árvores,</p>
+      <p>Salvador - BA,</p>
+      <p>CEP: 41820-790</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,14 +95,17 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A_Definir</p>
+      <p>9h às 18h</p>
+      <br />
+      Atendimento criminal e de urgência 24h pelo WhatsApp
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "A_definir", // Sem o @
-  facebookProfile: "A_Definir",
-  linkeDinProfile: "A_Definir",
-  x: "A_Definir",
+  instagramProfile: "carlosmartinezadvogado", // Sem o @
+  facebookProfile: "antonio.carlos.miguez.martinez.2025",
+  linkeDinProfile: "carlos-martinez-b62b69176",
+  x: "AcmmCarlos",
+  threadsProfile: "miguezmartinez",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -405,11 +411,12 @@ const content = {
         miniTag: "A_Definir",
         title: "A_Definir",
         subtitle: "A_Definir",
-        paragraph: <p>A_Definir</p>,
+        paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
+        labelThreads: "Siga-nos no Threads",
       },
     },
     cta: {
@@ -823,6 +830,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      threads: `https://www.threads.com/${infos.threadsProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
