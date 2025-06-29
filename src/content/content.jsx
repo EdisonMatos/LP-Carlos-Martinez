@@ -129,20 +129,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "ESCRITÓRIO EM FARROUPILHA - RS E SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          A_Definir
-          <span className="text-primary"> A_Definir</span>
+          A perfeição nasce da
+          <span className="text-primary"> paciência</span>
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Conflitos não se resolvem no grito — mas com estratégia, verdade e soluções que fazem a diferença.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Descubra como resolvemos conflitos",
       obsHero: {
         icon: (
           <svg
@@ -162,7 +163,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "A_Definir",
+        text: "Atendimento presencial com hora marcada e online em situações emergenciais",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
