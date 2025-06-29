@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: https://drhenriquejeremias.com.br/sitemap.xml
+Sitemap: https://carlosmartinezadvogado.com.br/sitemap.xml
 
