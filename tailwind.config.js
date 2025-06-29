@@ -28,7 +28,7 @@ export const theme = {
       buttonColor: "#DBB14C",
       iconButtons: "#000",
       labelButtons: "#000",
-      minititle: "#57A595",
+      minititle: "#cab084",
 
       // Sombras
 
