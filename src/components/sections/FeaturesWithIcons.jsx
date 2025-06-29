@@ -32,57 +32,206 @@ export default function FeaturesWithIcons({ colorMode }) {
         subtitleColorSet={textClass}
       />
       <SectionWrapper>
-        <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
-          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card1.icon}
-                title={content.texts.features.card1.title}
-                paragraph={content.texts.features.card1.subtitle}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card2.icon}
-                title={content.texts.features.card2.title}
-                paragraph={content.texts.features.card2.subtitle}
-                className={textClass}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-          </div>
-
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[32%]">
-            <div
-              className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
-              style={{
-                backgroundImage: `url(${content.texts.features.imgFeatures})`,
-              }}
-            ></div>
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card1.icon}
+              title={content.texts.features.card1.title}
+              paragraph={content.texts.features.card1.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card3.icon}
-                title={content.texts.features.card3.title}
-                paragraph={content.texts.features.card3.subtitle}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card4.icon}
-                title={content.texts.features.card4.title}
-                paragraph={content.texts.features.card4.subtitle}
-                className={textClass}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp>
-          </div>
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card2.icon}
+              title={content.texts.features.card2.title}
+              paragraph={content.texts.features.card2.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card3.icon}
+              title={content.texts.features.card3.title}
+              paragraph={content.texts.features.card3.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card4.icon}
+              title={content.texts.features.card4.title}
+              paragraph={content.texts.features.card4.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card5.icon}
+              title={content.texts.features.card5.title}
+              paragraph={content.texts.features.card5.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card6.icon}
+              title={content.texts.features.card6.title}
+              paragraph={content.texts.features.card6.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card7.icon}
+              title={content.texts.features.card7.title}
+              paragraph={content.texts.features.card7.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card8.icon}
+              title={content.texts.features.card8.title}
+              paragraph={content.texts.features.card8.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card9.icon}
+              title={content.texts.features.card9.title}
+              paragraph={content.texts.features.card9.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card10.icon}
+              title={content.texts.features.card10.title}
+              paragraph={content.texts.features.card10.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card11.icon}
+              title={content.texts.features.card11.title}
+              paragraph={content.texts.features.card11.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card12.icon}
+              title={content.texts.features.card12.title}
+              paragraph={content.texts.features.card12.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card13.icon}
+              title={content.texts.features.card13.title}
+              paragraph={content.texts.features.card13.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card14.icon}
+              title={content.texts.features.card14.title}
+              paragraph={content.texts.features.card14.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card15.icon}
+              title={content.texts.features.card15.title}
+              paragraph={content.texts.features.card15.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card16.icon}
+              title={content.texts.features.card16.title}
+              paragraph={content.texts.features.card16.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card17.icon}
+              title={content.texts.features.card17.title}
+              paragraph={content.texts.features.card17.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card18.icon}
+              title={content.texts.features.card18.title}
+              paragraph={content.texts.features.card18.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card19.icon}
+              title={content.texts.features.card19.title}
+              paragraph={content.texts.features.card19.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <IconFeatureCard
+              icon={content.texts.features.card20.icon}
+              title={content.texts.features.card20.title}
+              paragraph={content.texts.features.card20.subtitle}
+              className="m-auto"
+              colorMode={colorMode}
+            />
+          </MotionDivDownToUp>
         </div>
       </SectionWrapper>
     </SectionArea>
