@@ -924,33 +924,53 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "QUEM É O DR. CARLOS MARTINEZ",
+      title: "Minha trajetória",
+      subtitle:
+        "Compromisso com a verdade, excelência e soluções jurídicas humanizadas.",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          A_Definir
+          Falar sobre mim nunca foi fácil, mas é essencial compartilhar os
+          valores que guiam minha atuação. Sou economista e advogado, com mais
+          de 17 anos de experiência, sempre movido pelo perfeccionismo e pela
+          busca pela excelência.
           <br />
-          A_Definir
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          A_Definir
+          Falar sobre mim nunca foi fácil, mas é essencial compartilhar os
+          valores que guiam minha atuação. Sou economista e advogado, com mais
+          de 17 anos de experiência, sempre movido pelo perfeccionismo e pela
+          busca pela excelência.
           <br />
           <br />
-          A_Definir
+          Desde o início da carreira, entendi que ética, disciplina e paciência
+          são fundamentais para oferecer um serviço jurídico de qualidade.
+          Atendo com empatia e atenção, buscando soluções eficazes, respeitosas
+          e alinhadas à verdade.
           <br />
           <br />
-          A_Definir
+          Nosso foco vai além dos tribunais: valorizamos métodos extrajudiciais
+          como mediação e conciliação — mais rápidos, menos desgastantes e
+          muitas vezes mais eficazes.
           <br />
           <br />
-          A_Definir
+          Não sustentamos o que não se pode provar. Nossa missão é defender com
+          verdade, honra e ética. Entendemos a realidade de quem nos procura —
+          seja em dificuldades financeiras, questões familiares, previdenciárias
+          ou patrimoniais — e oferecemos um atendimento humano, direto e
+          transparente.
+          <br />
+          <br />
+          Mais que causas, criamos vínculos. Nosso diferencial é buscar a melhor
+          solução para o cliente, mesmo que ela não seja a mais lucrativa para o
+          escritório. A verdade sempre será o nosso caminho.
           <br />
           <br />
         </p>
@@ -964,9 +984,10 @@ const content = {
           imgSocial: aboutInstagram,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "A_Definir",
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        miniTag: "REDES SOCIAIS",
+        title: "Conecte-se conosco",
+        subtitle:
+          "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
         labelInstagram: "Siga-nos no Instagram",
         labelFacebook: "Siga-nos no Facebook",
