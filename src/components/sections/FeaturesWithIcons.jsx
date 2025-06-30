@@ -4,6 +4,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import ServicesModal from "./ServicesModal";
 
 export default function FeaturesWithIcons({ colorMode }) {
   // Define background and text colors based on colorMode
@@ -108,12 +109,12 @@ export default function FeaturesWithIcons({ colorMode }) {
               icon={content.texts.features.card8.icon}
               title={content.texts.features.card8.title}
               paragraph={content.texts.features.card8.subtitle}
-              className="m-auto"
-              colorMode={colorMode}
-            />
+            >
+              <ServicesModal />
+            </IconFeatureCard>
           </MotionDivDownToUp>
 
-          <MotionDivDownToUp>
+          {/* <MotionDivDownToUp>
             <IconFeatureCard
               icon={content.texts.features.card9.icon}
               title={content.texts.features.card9.title}
@@ -231,7 +232,7 @@ export default function FeaturesWithIcons({ colorMode }) {
               className="m-auto"
               colorMode={colorMode}
             />
-          </MotionDivDownToUp>
+          </MotionDivDownToUp> */}
         </div>
       </SectionWrapper>
     </SectionArea>
