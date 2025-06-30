@@ -57,7 +57,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card8.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service1.img.img}
+                    img={content.texts.features.card8.imgModal}
                     // subtitle={content.texts.features.card9.subtitle}
                     description={content.texts.features.card8.subtitle}
                     buttonLabel={content.texts.features.card8.buttonLabel}
@@ -81,7 +81,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card9.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service1.img.img}
+                    img={content.texts.features.card9.imgModal}
                     // subtitle={content.texts.features.card9.subtitle}
                     description={content.texts.features.card9.subtitle}
                     buttonLabel={content.texts.features.card9.buttonLabel}
@@ -105,7 +105,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card10.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service2.img.img}
+                    img={content.texts.features.card10.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service2.cardSubtitle
                     // }
@@ -131,7 +131,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card11.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service3.img.img}
+                    img={content.texts.features.card11.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service3.cardSubtitle
                     // }
@@ -141,6 +141,7 @@ export default function AcordionModalServices() {
                     buttonLink={
                       services.moreServices.demaisAreas.service3.buttonLink
                     }
+                    bgPosition="bg-bottom"
                   />
                 }
               >
@@ -157,7 +158,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card12.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service4.img.img}
+                    img={content.texts.features.card12.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service4.cardSubtitle
                     // }
@@ -183,7 +184,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card13.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service5.img.img}
+                    img={content.texts.features.card13.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service5.cardSubtitle
                     // }
@@ -209,7 +210,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card14.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service6.img.img}
+                    img={content.texts.features.card14.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service6.cardSubtitle
                     // }
@@ -235,7 +236,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card15.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service7.img.img}
+                    img={content.texts.features.card15.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service7.cardSubtitle
                     // }
@@ -261,7 +262,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card16.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service8.img.img}
+                    img={content.texts.features.card16.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service8.cardSubtitle
                     // }
@@ -287,7 +288,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card17.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service9.img.img}
+                    img={content.texts.features.card17.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service9.cardSubtitle
                     // }
@@ -312,7 +313,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card18.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service9.img.img}
+                    img={content.texts.features.card18.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service9.cardSubtitle
                     // }
@@ -338,7 +339,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card19.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service9.img.img}
+                    img={content.texts.features.card19.imgModal}
                     // subtitle={
                     //   services.moreServices.demaisAreas.service9.cardSubtitle
                     // }
@@ -364,8 +365,7 @@ export default function AcordionModalServices() {
                 header={content.texts.features.card20.title}
                 content={
                   <ServiceDetailCard
-                    // img={services.moreServices.demaisAreas.service9.img.img}
-                    // subtitle={
+                    img={content.texts.features.card20.imgModal}
                     //   services.moreServices.demaisAreas.service9.cardSubtitle
                     // }
                     description={content.texts.features.card20.subtitle}

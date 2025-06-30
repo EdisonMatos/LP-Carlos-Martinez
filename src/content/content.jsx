@@ -34,6 +34,19 @@ import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
 import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
 import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
+import image8 from "../assets/imgs/features/img8.webp";
+import image9 from "../assets/imgs/features/img9.webp";
+import image10 from "../assets/imgs/features/img10.webp";
+import image11 from "../assets/imgs/features/img11.webp";
+import image12 from "../assets/imgs/features/img12.webp";
+import image13 from "../assets/imgs/features/img13.webp";
+import image14 from "../assets/imgs/features/img14.webp";
+import image15 from "../assets/imgs/features/img15.webp";
+import image16 from "../assets/imgs/features/img16.webp";
+import image17 from "../assets/imgs/features/img17.webp";
+import image18 from "../assets/imgs/features/img18.webp";
+import image19 from "../assets/imgs/features/img19.webp";
+import image20 from "../assets/imgs/features/img20.webp";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -453,7 +466,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal3,
+        imgModal: image8,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -488,7 +501,7 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image9,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -522,7 +535,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image10,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -555,7 +568,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal1,
+        imgModal: image11,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -590,7 +603,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal2,
+        imgModal: image12,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -626,7 +639,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal3,
+        imgModal: image13,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -663,7 +676,7 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image14,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -696,7 +709,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image15,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -730,7 +743,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal1,
+        imgModal: image16,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -766,7 +779,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal2,
+        imgModal: image17,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -798,7 +811,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal3,
+        imgModal: image18,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -834,7 +847,7 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image19,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -869,7 +882,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image20,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"

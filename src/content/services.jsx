@@ -18,8 +18,8 @@ const services = {
     arrowIcon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="15"
-        height="15"
+        width="18"
+        height="18"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -37,8 +37,8 @@ const services = {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="15"
-          height="15"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
