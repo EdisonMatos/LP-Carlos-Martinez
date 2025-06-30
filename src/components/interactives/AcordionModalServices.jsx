@@ -52,6 +52,30 @@ export default function AcordionModalServices() {
         <AccordionDetails>
           <Typography>
             <p className="flex flex-col gap-[8px] font-secondFont text-paragraph4 text-paragraphLight">
+              {/* Link 8 */}
+              <ModalComponent
+                header={content.texts.features.card8.title}
+                content={
+                  <ServiceDetailCard
+                    // img={services.moreServices.demaisAreas.service1.img.img}
+                    // subtitle={content.texts.features.card9.subtitle}
+                    description={content.texts.features.card8.subtitle}
+                    buttonLabel={content.texts.features.card8.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.demaisAreas.service1.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-blue-600">
+                  <span>{services.moreServices.arrowIcon}</span>
+                  <span className="ml-2 text-left text-blue-600 text-paragraph3">
+                    {content.texts.features.card8.title}
+                  </span>
+                </button>
+              </ModalComponent>
+
               {/* Link 9 */}
               <ModalComponent
                 header={content.texts.features.card9.title}
@@ -130,7 +154,7 @@ export default function AcordionModalServices() {
 
               {/* Link 12 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service4.name}
+                header={content.texts.features.card12.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service4.img.img}
@@ -156,7 +180,7 @@ export default function AcordionModalServices() {
 
               {/* Link 13 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service5.name}
+                header={content.texts.features.card13.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service5.img.img}
@@ -182,7 +206,7 @@ export default function AcordionModalServices() {
 
               {/* Link 14 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service6.name}
+                header={content.texts.features.card14.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service6.img.img}
@@ -208,7 +232,7 @@ export default function AcordionModalServices() {
 
               {/* Link 15 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service7.name}
+                header={content.texts.features.card15.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service7.img.img}
@@ -234,7 +258,7 @@ export default function AcordionModalServices() {
 
               {/* Link 16 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service8.name}
+                header={content.texts.features.card16.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service8.img.img}
@@ -260,7 +284,7 @@ export default function AcordionModalServices() {
 
               {/* Link 17 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service9.name}
+                header={content.texts.features.card17.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service9.img.img}
@@ -285,7 +309,7 @@ export default function AcordionModalServices() {
               </ModalComponent>
               {/* Link 18 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service9.name}
+                header={content.texts.features.card18.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service9.img.img}
@@ -311,7 +335,7 @@ export default function AcordionModalServices() {
 
               {/* Link 19 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service9.name}
+                header={content.texts.features.card19.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service9.img.img}
@@ -337,7 +361,7 @@ export default function AcordionModalServices() {
 
               {/* Link 20 */}
               <ModalComponent
-                header={services.moreServices.demaisAreas.service9.name}
+                header={content.texts.features.card20.title}
                 content={
                   <ServiceDetailCard
                     // img={services.moreServices.demaisAreas.service9.img.img}
