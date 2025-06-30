@@ -5,7 +5,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
@@ -17,7 +17,7 @@ import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -34,6 +34,19 @@ import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
 import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
 import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
+import image8 from "../assets/imgs/features/img8.webp";
+import image9 from "../assets/imgs/features/img9.webp";
+import image10 from "../assets/imgs/features/img10.webp";
+import image11 from "../assets/imgs/features/img11.webp";
+import image12 from "../assets/imgs/features/img12.webp";
+import image13 from "../assets/imgs/features/img13.webp";
+import image14 from "../assets/imgs/features/img14.webp";
+import image15 from "../assets/imgs/features/img15.webp";
+import image16 from "../assets/imgs/features/img16.webp";
+import image17 from "../assets/imgs/features/img17.webp";
+import image18 from "../assets/imgs/features/img18.webp";
+import image19 from "../assets/imgs/features/img19.webp";
+import image20 from "../assets/imgs/features/img20.webp";
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
@@ -53,31 +66,34 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: "Dr. Henrique Jeremias",
+  name: "Carlos Martinez Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "drhenriquejeremias.com.br", // Sem "www"
+  domain: "carlosmartinezadvogado.com.br", // Sem "www"
   phone: {
-    ddd: "11",
-    firstPart: "96576", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "2551", // Apenas os 4 últimos números
+    ddd: "54",
+    firstPart: "99985", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "8016", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "71",
+    firstPart: "99208", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4672", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: "A_Definir",
-    firstPart: "A_Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A_Definir", // Apenas os 4 últimos números
+    ddd: "54",
+    firstPart: "99960", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "2608", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Alameda Salvador, nº 1057,</p>
+      <p>Ed. Salvador Shopping Business Cyrela,</p>
+      <p>Torre América, Sala 1313,</p>
+      <p>Caminho das Árvores,</p>
+      <p>Salvador - BA,</p>
+      <p>CEP: 41820-790</p>
     </div>
   ),
   enderecoSecundario: (
@@ -92,14 +108,17 @@ export const infos = {
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>8h às 18h</p>
+      <p>9h às 18h</p>
+      <br />
+      Atendimento criminal e de urgência 24h pelo WhatsApp
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
-  instagramProfile: "henriquejeremias.adv", // Sem o @
-  facebookProfile: "henrique.jeremias.adv",
-  linkeDinProfile: "A_Definir",
-  x: "A_Definir",
+  instagramProfile: "carlosmartinezadvogado", // Sem o @
+  facebookProfile: "antonio.carlos.miguez.martinez.2025",
+  linkeDinProfile: "carlos-martinez-b62b69176",
+  x: "AcmmCarlos",
+  threadsProfile: "miguezmartinez",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -123,21 +142,21 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO DE ADVOCACIA EM SÃO PAULO - SP",
+      miniTag: "ESCRITÓRIO EM FARROUPILHA - RS E SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          Seu problema merece
-          <span className="text-primary"> atenção real</span>
+          A perfeição nasce da
+          <span className="text-primary"> paciência</span>
         </h1>
       ),
       subtitle:
-        "Esqueça os velhos modelos. Aqui, o foco é você e a busca pela melhor solução possível.",
+        "Conflitos não se resolvem no grito — mas com estratégia, verdade e soluções que fazem a diferença.",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Conheça uma nova advocacia",
+      ctaButtonText: "Descubra como resolvemos conflitos",
       obsHero: {
         icon: (
           <svg
@@ -157,7 +176,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento exclusivamente online",
+        text: "Atendimento presencial com hora marcada e online em situações emergenciais",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -184,15 +203,15 @@ const content = {
     },
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
-      title: "Especialidades jurídicas",
+      title: "Atuação jurídica com compromisso e excelência",
       subtitle:
-        "Atendimento completo e estratégico nas principais áreas do Direito.",
+        "Conheça as principais áreas em que oferecemos suporte legal qualificado.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Penal",
-        subtitle: "Defesa em acusações criminais e processos penais.",
+        title: "Direito Trabalhista",
+        subtitle: "Defesa dos direitos nas relações de trabalho e emprego.",
         description: (
           <div>
             A_Definir
@@ -202,6 +221,110 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+          >
+            <path d="M12 12h.01" />
+            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+            <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: featuresImg2,
+        title: "Direito Cível",
+        subtitle: "Soluções para conflitos e deveres nas relações civis.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: featuresImg3,
+        title: "Direito do Consumidor",
+        subtitle: "Proteção dos consumidores frente a práticas abusivas.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+          >
+            <circle cx="8" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: featuresImg4,
+        title: "Direito Criminal",
+        subtitle: "Defesa dos direitos nas fases pré-processual e processual.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            A_Definir
+            <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -225,10 +348,79 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card2: {
+      card5: {
+        img: featuresImg4,
+        title: "Direito de Família e Sucessões",
+        subtitle: "Atuação em pensão, divórcio, guarda, inventário e mais.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users-icon lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg1,
+        title: "Direito Previdenciário",
+        subtitle: "Aposentadorias, pensões e planejamento previdenciário.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user-check-icon lucide-user-check"
+          >
+            <path d="m16 11 2 2 4-4" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card7: {
         img: featuresImg2,
-        title: "Direito Cível e Consumidor",
-        subtitle: "Soluções em conflitos civis e defesa do consumidor.",
+        title: "Direito Societário",
+        subtitle: "Estruturação e defesa jurídica de empresas e sócios.",
         description: (
           <div>
             A_Definir
@@ -238,6 +430,320 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-building2-icon lucide-building-2"
+          >
+            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+            <path d="M10 6h4" />
+            <path d="M10 10h4" />
+            <path d="M10 14h4" />
+            <path d="M10 18h4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card8: {
+        img: featuresImg3,
+        title: "Direito Ambiental e Agrário",
+        subtitle: "Consultoria legal para uso do solo e regras ambientais.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image8,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-sprout-icon lucide-sprout"
+          >
+            <path d="M7 20h10" />
+            <path d="M10 20c5.5-2.5.8-6.4 3-10" />
+            <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" />
+            <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card9: {
+        img: featuresImg4,
+        title: "Direito Bancário",
+        subtitle: "Revisão de contratos, defesa contra abusos e fraudes.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            A_Definir
+            <br />
+          </div>
+        ),
+        imgModal: image9,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-banknote-icon lucide-banknote"
+          >
+            <rect width="20" height="12" x="2" y="6" rx="2" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M6 12h.01M18 12h.01" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card10: {
+        img: featuresImg4,
+        title: "Direito Tributário",
+        subtitle: "Consultoria, defesas e recuperação de créditos fiscais.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image10,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-icon lucide-file"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card11: {
+        img: featuresImg1,
+        title: "Direito de Trânsito",
+        subtitle: "Defesa contra multas, penalidades e acidentes de trânsito.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image11,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-car-icon lucide-car"
+          >
+            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+            <circle cx="7" cy="17" r="2" />
+            <path d="M9 17h6" />
+            <circle cx="17" cy="17" r="2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card12: {
+        img: featuresImg2,
+        title: "Direito Financeiro e Econômico",
+        subtitle: "Soluções legais sobre contratos, cobrança e regulação.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image12,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-file-chart-column-icon lucide-file-chart-column"
+          >
+            <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
+            <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+            <path d="M8 18v-1" />
+            <path d="M12 18v-6" />
+            <path d="M16 18v-3" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card13: {
+        img: featuresImg3,
+        title: "Direito Desportivo",
+        subtitle:
+          "Assessoria jurídica a atletas, clubes e entidades esportivas.",
+        description: (
+          <div>
+            A_Definir <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image13,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-trophy-icon lucide-trophy"
+          >
+            <path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978" />
+            <path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978" />
+            <path d="M18 9h1.5a1 1 0 0 0 0-5H18" />
+            <path d="M4 22h16" />
+            <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+            <path d="M6 9H4.5a1 1 0 0 1 0-5H6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card14: {
+        img: featuresImg4,
+        title: "Direito Imobiliário",
+        subtitle: "Regularização, contratos e gestão jurídica de imóveis.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            A_Definir
+            <br />
+          </div>
+        ),
+        imgModal: image14,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house-icon lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card15: {
+        img: featuresImg4,
+        title: "Direito Notarial e Registral",
+        subtitle: "Segurança jurídica em registros, atos e documentos legais.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image15,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-pencil-icon lucide-pencil"
+          >
+            <path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" />
+            <path d="m15 5 4 4" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card16: {
+        img: featuresImg1,
+        title: "Direito Contratual",
+        subtitle:
+          "Elaboração e análise jurídica de diversos tipos de contrato.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image16,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -261,10 +767,43 @@ const content = {
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card3: {
+      card17: {
+        img: featuresImg2,
+        title: "Direito Autoral",
+        subtitle: "Proteção legal para obras intelectuais e criativas.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: image17,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-copyright-icon lucide-copyright"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M14.83 14.83a4 4 0 1 1 0-5.66" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card18: {
         img: featuresImg3,
-        title: "Direito de Família e Sucessões",
-        subtitle: "Acordos, divórcios, pensões e inventários legais.",
+        title: "Direito das Startups",
+        subtitle: "Apoio jurídico em contratos, marcas, sociedade e tributos.",
         description: (
           <div>
             A_Definir <br />
@@ -272,7 +811,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal3,
+        imgModal: image18,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -284,21 +823,22 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-rocket-icon lucide-rocket"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <circle cx="9" cy="7" r="4" />
+            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card4: {
+      card19: {
         img: featuresImg4,
-        title: "Direito Empresarial e Trabalhista",
-        subtitle: "Suporte jurídico para empresas e relações de trabalho.",
+        title: "Responsabilidade Cível e Criminal",
+        subtitle:
+          "Defesa contra responsabilizações judiciais e extrajudiciais.",
         description: (
           <div>
             A_Definir
@@ -307,7 +847,7 @@ const content = {
             <br />
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image19,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -319,21 +859,21 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-briefcase-business-icon lucide-briefcase-business"
+            class="lucide lucide-shield-alert-icon lucide-shield-alert"
           >
-            <path d="M12 12h.01" />
-            <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-            <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-            <rect width="20" height="14" x="2" y="6" rx="2" />
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M12 8v4" />
+            <path d="M12 16h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
-      card5: {
+      card20: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Administrativo",
+        subtitle:
+          "Atuação em licitações, servidores públicos e contratos com o Estado.",
         description: (
           <div>
             A_Definir
@@ -342,7 +882,7 @@ const content = {
             A_Definir
           </div>
         ),
-        imgModal: imgFeaturesCardModal4,
+        imgModal: image20,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -354,11 +894,14 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-clipboard-list-icon lucide-clipboard-list"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+            <path d="M12 11h4" />
+            <path d="M12 16h4" />
+            <path d="M8 11h.01" />
+            <path d="M8 16h.01" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -383,9 +926,10 @@ const content = {
       },
     },
     maps: {
-      minitag: "A_Definir",
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      minitag: "LOCALIZAÇÃO",
+      title: "Encontre-nos em",
+      subtitle:
+        "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
       embedsrc:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5228.594742930791!2d-51.169466!3d-23.321824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435bf9b37d8f%3A0xfb3125702df9f29d!2sMolina%20%26%20Spigarollo%20%7C%20Advogados%20Associados!5e1!3m2!1spt-BR!2sbr!4v1736876812303!5m2!1spt-BR!2sbr",
     },
@@ -394,39 +938,53 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. HENRIQUE JEREMIAS",
+      miniTag: "QUEM É O DR. CARLOS MARTINEZ",
       title: "Minha trajetória",
       subtitle:
-        "Uma advocacia humana, acessível e comprometida com o seu caso.",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+        "Compromisso com a verdade, excelência e soluções jurídicas humanizadas.",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          Falar sobre mim nunca foi fácil, mas é essencial compartilhar os
+          valores que guiam minha atuação. Sou economista e advogado, com mais
+          de 17 anos de experiência, sempre movido pelo perfeccionismo e pela
+          busca pela excelência.
+          <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Minha história na advocacia ainda está sendo escrita. Estou no início
-          da caminhada profissional, mas com uma visão muito clara: construir um
-          escritório acessível, sem formalidades excessivas, onde o cliente se
-          sinta à vontade para expor sua situação com confiança e clareza.
+          Falar sobre mim nunca foi fácil, mas é essencial compartilhar os
+          valores que guiam minha atuação. Sou economista e advogado, com mais
+          de 17 anos de experiência, sempre movido pelo perfeccionismo e pela
+          busca pela excelência.
           <br />
           <br />
-          Acredito que, ao acolher verdadeiramente quem nos procura, conseguimos
-          compreender melhor o problema e buscar soluções mais eficazes. Tenho o
-          compromisso de atuar com empatia, transparência e total dedicação na
-          resolução dos conflitos que me são confiados.
+          Desde o início da carreira, entendi que ética, disciplina e paciência
+          são fundamentais para oferecer um serviço jurídico de qualidade.
+          Atendo com empatia e atenção, buscando soluções eficazes, respeitosas
+          e alinhadas à verdade.
           <br />
           <br />
-          Mais do que advogar, quero caminhar ao lado do cliente, mostrando que
-          ele não está sozinho.
+          Nosso foco vai além dos tribunais: valorizamos métodos extrajudiciais
+          como mediação e conciliação — mais rápidos, menos desgastantes e
+          muitas vezes mais eficazes.
+          <br />
+          <br />
+          Não sustentamos o que não se pode provar. Nossa missão é defender com
+          verdade, honra e ética. Entendemos a realidade de quem nos procura —
+          seja em dificuldades financeiras, questões familiares, previdenciárias
+          ou patrimoniais — e oferecemos um atendimento humano, direto e
+          transparente.
+          <br />
+          <br />
+          Mais que causas, criamos vínculos. Nosso diferencial é buscar a melhor
+          solução para o cliente, mesmo que ela não seja a mais lucrativa para o
+          escritório. A verdade sempre será o nosso caminho.
           <br />
           <br />
         </p>
@@ -445,10 +1003,11 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
+        labelThreads: "Siga-nos no Threads",
       },
     },
     cta: {
@@ -862,6 +1421,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      threads: `https://www.threads.com/${infos.threadsProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneTerciario: `https://wa.me/+55${infos.phoneTerciario.ddd}${infos.phoneTerciario.firstPart}${infos.phoneTerciario.secondPart}?text=${infos.whatsappDefaultMessage}`,
