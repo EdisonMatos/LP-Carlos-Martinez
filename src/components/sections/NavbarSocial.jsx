@@ -112,11 +112,12 @@ export default function NavbarSocial({ colorMode }) {
           >
             <img
               src={content.texts.navbar.logo.img}
+              x
               alt={content.texts.navbar.logo.alt}
               className={`bg-transparent max-h-[90px] ${
                 scrolling
-                  ? " rounded-md w-[50%] phone3:w-[40%] tablet1:w-[40%] tablet2:w-[40%] desktop1:w-[50%] desktop2:w-[60%]"
-                  : " my-[20px] w-[80%] phone2:w-[70%] phone3:w-[60%] tablet1:w-[60%] tablet2:w-[70%] desktop2:w-[80%]"
+                  ? " rounded-md w-[50%] phone3:w-[40%] tablet1:w-[60%] tablet2:w-[60%] desktop1:w-[50%] desktop2:w-[80%]"
+                  : " my-[20px] w-[80%] phone2:w-[70%] phone3:w-[60%] tablet1:w-[80%] tablet2:w-[80%] desktop2:w-[90%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>
