@@ -57,11 +57,7 @@ export default function SidebarSocial({ colorMode }) {
 
         <AlignJustify
           className={`p-button-rounded p-button-outlined lg:hidden ${
-            colorMode
-              ? scrolled
-                ? "text-bgSectionDark"
-                : "text-bgSectionDark"
-              : "text-bgSectionDark"
+            colorMode ? (scrolled ? "text-white" : "text-white") : "text-white"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
         />
@@ -77,7 +73,7 @@ export default function SidebarSocial({ colorMode }) {
               id="app-sidebar-2"
               className={`${
                 colorMode
-                  ? "bg-white"
+                  ? "bg-bgSectionDark"
                   : "absolute top-0 left-0 flex-shrink-0 h-screen border-r-[1px] select-none bg-bgSectionDark surface-section lg:hidden lg:static z-1 surface-border border-neutral-700"
               }`}
               style={{ width: "280px" }}
@@ -88,7 +84,7 @@ export default function SidebarSocial({ colorMode }) {
                     <img
                       src={content.texts.navbar.solidLogo.img}
                       alt={content.texts.navbar.solidLogo.alt}
-                      className="w-auto h-auto p-[5px]  "
+                      className="w-auto h-auto p-[5px] bg-white rounded-md  "
                     />
                   </span>
                   <span>

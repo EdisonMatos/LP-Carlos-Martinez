@@ -1451,7 +1451,7 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: "NAVEGAÇÃO",
+      footerNavegacaoText: "Endereço",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
   },

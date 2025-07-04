@@ -27,7 +27,7 @@ function ObsFooter() {
           </svg>
         </div>
 
-        <p>{content.texts.infos.obsFooter}</p>
+        <p className="text-paragraph1">{content.texts.infos.obsFooter}</p>
       </div>
     </MotionDivDownToUp>
   );

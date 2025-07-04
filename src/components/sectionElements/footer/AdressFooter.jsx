@@ -6,7 +6,7 @@ import { MapPin } from "lucide-react";
 function AdressFooter() {
   return (
     <MotionDivDownToUp>
-      <div className="flex full gap-x-[12px] items-center opacity-90">
+      <div className="flex full gap-x-[12px] text-paragraph1 items-center opacity-90">
         <div>
           <MapPin />
         </div>

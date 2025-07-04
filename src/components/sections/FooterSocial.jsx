@@ -70,34 +70,34 @@ export default function FooterSocial({
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">
           <div className="w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
+            <div className="flex flex-col gap-y-[35px] desktop1:w-[290px] text-paragraph3 ">
               <LogoFooter />
               <PhoneFooter colorMode={colorMode} />
               {phoneSecundario && <PhoneSecundario />}
               {phoneTerciario && <PhoneTerciario />}
               <EmailFooter />
               {emailSecundario && <EmailSecundarioFooter />}
-              {addres && <AdressFooter />}
-              {addresSecundario && <AdressSecundarioFooter />}
-              <ExpedienteFooter />
-              {expedientesecond && <ExpedienteSecondFooter />}
-              {obs && <ObsFooter />}
             </div>
 
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] ">
               <MidTextFooter />
               <ParagrapfFooter />
               <MotionDivDownToUp>
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
-                  <div className="flex gap-[10px] items-center">
-                    {instagram && <InstagramFooter />}
-                    {instagramSecundary && <InstagramSecundaryFooter />}
-                    {tiktok && <TikTokFooter />}
-                    {facebook && <FacebookFooter />}
-                    {x && <XFooter />}
-                    {linkedin && <LinkedinFooter />}
-                    {threads && <ThreadsFooter />}
+                  <div className="flex flex-col tablet1:flex-row desktop1:flex-col gap-[10px]">
+                    <div className="flex gap-2">
+                      {instagram && <InstagramFooter />}
+                      {instagramSecundary && <InstagramSecundaryFooter />}
+                      {tiktok && <TikTokFooter />}
+                      {facebook && <FacebookFooter />}
+                    </div>
+
+                    <div className="flex gap-2">
+                      {x && <XFooter />}
+                      {linkedin && <LinkedinFooter />}
+                      {threads && <ThreadsFooter />}
+                    </div>
                   </div>
                 </div>
               </MotionDivDownToUp>
@@ -105,7 +105,12 @@ export default function FooterSocial({
 
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <NavegationTextFooter />
-              <LinksNavegationFooter />
+              {/* <LinksNavegationFooter /> */}
+              {addres && <AdressFooter />}
+              {addresSecundario && <AdressSecundarioFooter />}
+              <ExpedienteFooter />
+              {expedientesecond && <ExpedienteSecondFooter />}
+              {obs && <ObsFooter />}
             </div>
           </div>
           <CopyrightFooter />
