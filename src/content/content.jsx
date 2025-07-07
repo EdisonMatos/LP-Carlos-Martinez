@@ -1093,14 +1093,15 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/carlosmartinezadvogado.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://blogtestepaper.wordpress.com/",
+      blogLink: "https://carlosmartinezadvogado.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
