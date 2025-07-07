@@ -977,7 +977,7 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É O DR. CARLOS MARTINEZ",
+      miniTag: "QUEM É O Dr. CARLOS MARTINEZ",
       title: "Minha trajetória",
       subtitle:
         "Compromisso com a verdade, excelência e soluções jurídicas humanizadas.",
