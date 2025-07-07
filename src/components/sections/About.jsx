@@ -56,12 +56,16 @@ export default function About({
       className={`${bgClass} transition-colors duration-1000`}
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[500px] flex justify-center rounded-xl">
-          <img
-            src={content.texts.about.imagem.img}
-            alt={content.texts.about.imagem.alt}
-            className="w-[100%] desktop1:w-[415px] desktop2:w-[500px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
-          />
+        <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[470px] h-[400px] phone3:h-[500px] tablet1:h-[600px] tablet2:h-[700px] desktop1:h-[550px] flex justify-center rounded-xl">
+          <div
+            className="relative w-[90%] desktop1:w-[415px] desktop2:w-[470px]
+          desktop1:h-[550px] flex justify-center rounded-xl shadow-custom-opacity
+          shadow-shadowAbouts/10 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${content.texts.about.imagem.img})`,
+            }}
+            aria-label={content.texts.about.imagem.alt}
+          ></div>
         </MotionDivDownToUp>
         {/* <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div className="shadow-custom-opacity shadow-secondary/25 relative bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-auto desktop1:h-[467px] rounded-xl">
