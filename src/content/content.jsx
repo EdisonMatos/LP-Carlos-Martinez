@@ -1121,7 +1121,7 @@ const content = {
         question3: {
           question: "Quais documentos devo levar para a consulta?",
           answer:
-            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais, declaração de imposto de renda e/ou contra-cheque e comprovante de residência.",
         },
         question4: {
           question: "Vocês oferecem serviços de consultoria preventiva?",
