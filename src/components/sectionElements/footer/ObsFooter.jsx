@@ -2,8 +2,6 @@ import React from "react";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import content from "../../../content/content";
 
-
-
 function ObsFooter() {
   return (
     <MotionDivDownToUp>
@@ -27,7 +25,7 @@ function ObsFooter() {
           </svg>
         </div>
 
-        <p>{content.texts.infos.obsFooter}</p>
+        <p className="text-paragraph1">{content.texts.infos.obsFooter}</p>
       </div>
     </MotionDivDownToUp>
   );
