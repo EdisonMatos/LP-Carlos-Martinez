@@ -88,13 +88,16 @@ export const infos = {
   },
   endereco: (
     <div>
-      <p>Endereço:</p>
+      <p>Endereços:</p>
+      <p>Rua 13 de Maio, nº 390, </p>
+      <p>Ed. Attuale Trade Offices, Sala 45, Centro</p>
+      <p>Farroupilha - RS, CEP 95170-428</p>
+      <p>e</p>
       <p>Alameda Salvador, nº 1057,</p>
       <p>Ed. Salvador Shopping Business Cyrela,</p>
       <p>Torre América, Sala 1313,</p>
       <p>Caminho das Árvores,</p>
-      <p>Salvador - BA,</p>
-      <p>CEP: 41820-790</p>
+      <p>Salvador - BA, CEP: 41820-790</p>
     </div>
   ),
   enderecoSecundario: (
@@ -116,10 +119,11 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "carlosmartinezadvogado", // Sem o @
-  facebookProfile: "antonio.carlos.miguez.martinez.2025",
+  facebookProfile: "61577175313092",
   linkeDinProfile: "carlos-martinez-b62b69176",
   x: "AcmmCarlos",
   threadsProfile: "miguezmartinez",
+  tiktokProfile: "@advogadocarlosmartinez",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -138,7 +142,12 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      menuItems: [
+        "Início",
+        "Especialidades",
+        "Sobre Nós",
+        "Perguntas Frequentes",
+      ],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
@@ -985,6 +994,8 @@ const content = {
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
+      labeltiktok: "Siga-me no TikTok",
+
       paragraph: (
         <div>
           Falar sobre mim nunca foi fácil, mas é essencial compartilhar os
@@ -1047,6 +1058,7 @@ const content = {
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
         labelThreads: "Siga-nos no Threads",
+        labeltiktok: "Siga-me no TikTok",
       },
     },
     cta: {
@@ -1461,6 +1473,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      tiktok: `https://www.tiktok.com/${infos.tiktokProfile}/`,
       threads: `https://www.threads.com/${infos.threadsProfile}/`,
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
       phoneSecundario: `https://wa.me/+55${infos.phoneSecundario.ddd}${infos.phoneSecundario.firstPart}${infos.phoneSecundario.secondPart}?text=${infos.whatsappDefaultMessage}`,
@@ -1481,7 +1494,7 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: "NAVEGAÇÃO",
+      footerNavegacaoText: "Endereço",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
   },
