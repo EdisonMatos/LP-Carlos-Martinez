@@ -124,8 +124,8 @@ export default function FeaturesWithIcons({ colorMode }) {
                   <path d="M12 8v8" />
                 </svg>
               }
-              title="Conheça outras areas"
-              paragraph="Saiba em quais areas também atuo"
+              title="Conheça outras áreas"
+              paragraph="Saiba em quais áreas também atuo"
             >
               <ServicesModal />
             </IconFeatureCard>

@@ -384,6 +384,31 @@ export default function AcordionModalServices() {
                   </span>
                 </button>
               </ModalComponent>
+
+              {/* Link 21 */}
+              <ModalComponent
+                header={content.texts.features.card21.title}
+                content={
+                  <ServiceDetailCard
+                    img={content.texts.features.card21.imgModal}
+                    //   services.moreServices.demaisAreas.service9.cardSubtitle
+                    // }
+                    description={content.texts.features.card21.subtitle}
+                    buttonLabel={content.texts.features.card21.buttonLabel}
+                    buttonIcon={services.moreServices.ctaButtons.icon}
+                    buttonLink={
+                      services.moreServices.demaisAreas.service9.buttonLink
+                    }
+                  />
+                }
+              >
+                <button className="flex text-blue-600">
+                  <span>{services.moreServices.arrowIcon}</span>
+                  <span className="ml-2 text-left text-blue-600 text-paragraph3">
+                    {content.texts.features.card21.title}
+                  </span>
+                </button>
+              </ModalComponent>
             </p>
           </Typography>
         </AccordionDetails>
