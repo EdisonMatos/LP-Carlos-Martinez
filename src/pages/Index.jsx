@@ -65,6 +65,7 @@ export default function Index() {
         threads={true}
         x={true}
         linkedin={true}
+        tiktok={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />
