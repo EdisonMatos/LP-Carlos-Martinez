@@ -56,13 +56,15 @@ export default function About({
       className={`${bgClass} transition-colors duration-1000`}
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
-        {/* <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
+
+       {/* <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
           <img
             src={content.texts.about.imagem.img}
             alt={content.texts.about.imagem.alt}
             className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl shadow-custom-opacity shadow-shadowAbouts/10"
           />
         </MotionDivDownToUp> */}
+
         <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[470px] h-[400px] phone3:h-[500px] tablet1:h-[600px] tablet2:h-[700px] desktop1:h-[550px] flex justify-center rounded-xl">
           <div
             className="relative w-[90%] desktop1:w-[415px] desktop2:w-[470px]
