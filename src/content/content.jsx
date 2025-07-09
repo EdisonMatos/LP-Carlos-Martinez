@@ -155,8 +155,8 @@ const content = {
       miniTag: "ESCRITÓRIO EM FARROUPILHA - RS E SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
-          A perfeição nasce da
-          <span className="text-primary"> paciência</span>
+          Da paciência nasce
+          <span className="text-primary"> a perfeição</span>
         </h1>
       ),
       subtitle:
