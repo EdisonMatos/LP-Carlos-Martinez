@@ -186,7 +186,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento presencial com hora marcada e online em situações emergenciais",
+        text: "Atendimento presencial com hora marcada e online em situações emergenciais para todo Brasil",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -221,7 +221,7 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito Trabalhista",
-        subtitle: "Defesa dos direitos nas relações de trabalho e emprego.",
+        subtitle: "Proteção contra dispensas sem justa causa ou arbitrária.",
         description: (
           <div>
             A_Definir
@@ -998,20 +998,20 @@ const content = {
 
       paragraph: (
         <div>
-          Falar sobre mim nunca foi fácil, mas é essencial compartilhar os
-          valores que guiam minha atuação. Sou economista e advogado, com mais
-          de 17 anos de experiência, sempre movido pelo perfeccionismo e pela
-          busca pela excelência.
+          Falar sobre mim nunca foi fácil; mas é essencial compartilhar os
+          valores que guiam nossa atuação. Sou economista há mais de 30 anos e
+          advogado, com mais de 17 anos de experiência, sempre movido pelo
+          perfeccionismo e pela busca pela excelência.
           <br />
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Falar sobre mim nunca foi fácil, mas é essencial compartilhar os
-          valores que guiam minha atuação. Sou economista e advogado, com mais
-          de 17 anos de experiência, sempre movido pelo perfeccionismo e pela
-          busca pela excelência.
+          Falar sobre mim nunca foi fácil; mas é essencial compartilhar os
+          valores que guiam nossa atuação. Sou economista há mais de 30 anos e
+          advogado, com mais de 17 anos de experiência, sempre movido pelo
+          perfeccionismo e pela busca pela excelência.
           <br />
           <br />
           Desde o início da carreira, entendi que ética, disciplina e paciência
@@ -1032,9 +1032,10 @@ const content = {
           transparente.
           <br />
           <br />
-          Mais que causas, criamos vínculos. Nosso diferencial é buscar a melhor
-          solução para o cliente, mesmo que ela não seja a mais lucrativa para o
-          escritório. A verdade sempre será o nosso caminho.
+          Mais que causas, construímos laços, criamos vínculos e protegemos
+          famílias. Nosso diferencial é buscar a melhor solução para o cliente,
+          mesmo que ela não seja a mais lucrativa para o escritório. A verdade
+          sempre será o nosso caminho.
           <br />
           <br />
         </p>
