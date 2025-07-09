@@ -48,6 +48,7 @@ export default function Index() {
         threads={true}
         x={true}
         linkedin={true}
+        tiktok={true}
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
