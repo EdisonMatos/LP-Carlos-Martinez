@@ -14,6 +14,7 @@ import ParagraphsAboutSocial from "../sectionElements/aboutInstagram/ParagraphsA
 import TikTokAbout from "../sectionElements/aboutInstagram/TiktokAbout";
 import InstagramSecundaryAbout from "../sectionElements/aboutInstagram/InstagramSecundaryAbout";
 import ThreadsAbout from "../sectionElements/aboutInstagram/ThreadsAbout";
+import YoutubeAbout from "../sectionElements/aboutInstagram/YoutubeAbout";
 
 export default function AboutInstagram({
   instagram,
@@ -25,6 +26,7 @@ export default function AboutInstagram({
   colorMode,
   instagramSecundary,
   threads,
+  youtube,
 }) {
   // Definir classes de tema
   const bgClasses = {
@@ -70,6 +72,7 @@ export default function AboutInstagram({
             {tiktok && <TikTokAbout />}
             {instagramSecundary && <InstagramSecundaryAbout />}
             {threads && <ThreadsAbout />}
+            {youtube && <YoutubeAbout />}
           </div>
         </div>
       </SectionWrapper>

@@ -125,7 +125,7 @@ export default function FeaturesWithIcons({ colorMode }) {
                 </svg>
               }
               title="Conheça outras áreas"
-              paragraph="Saiba em quais áreas também atuo"
+              paragraph="Saiba em quais áreas também atuamos"
             >
               <ServicesModal />
             </IconFeatureCard>
