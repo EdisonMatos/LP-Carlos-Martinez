@@ -153,7 +153,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO EM FARROUPILHA - RS E SALVADOR - BA",
+      miniTag: "ESCRITÓRIOS EM FARROUPILHA - RS & SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
           Da paciência nasce
@@ -215,8 +215,7 @@ const content = {
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Atuação jurídica com compromisso e excelência",
-      subtitle:
-        "Conheça as principais áreas em que oferecemos suporte legal qualificado.",
+      subtitle: "Saiba as principais áreas em que atuamos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
