@@ -124,6 +124,7 @@ export const infos = {
   x: "AcmmCarlos",
   threadsProfile: "miguezmartinez",
   tiktokProfile: "@advogadocarlosmartinez",
+  youtubeProfile: "@carlosmartinezadv",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -152,7 +153,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO EM FARROUPILHA - RS E SALVADOR - BA",
+      miniTag: "ESCRITÓRIOS EM FARROUPILHA - RS & SALVADOR - BA",
       title: (
         <h1 className="mb-[16px]">
           Da paciência nasce
@@ -214,8 +215,7 @@ const content = {
     features: {
       miniTag: "ÁREAS DE ATUAÇÃO",
       title: "Atuação jurídica com compromisso e excelência",
-      subtitle:
-        "Conheça as principais áreas em que oferecemos suporte legal qualificado.",
+      subtitle: "Saiba as principais áreas em que atuamos.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -1482,6 +1482,7 @@ const content = {
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
+      youtube: `https://www.youtube.com/${infos.youtubeProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,

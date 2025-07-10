@@ -25,6 +25,7 @@ import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
 import ExpedienteSecondFooter from "../sectionElements/footer/ExpedienteSecondFooter.jsx";
 import InstagramSecundaryFooter from "../sectionElements/footer/InstagramSecundaryFooter.jsx";
 import ThreadsFooter from "../sectionElements/footer/threadsFooter.jsx";
+import Youtube from "../sectionElements/footer/Youtube.jsx";
 
 export default function FooterSocial({
   colorMode,
@@ -42,6 +43,7 @@ export default function FooterSocial({
   expedientesecond,
   instagramSecundary,
   threads,
+  youtube,
 }) {
   // Define estilos com base no colorMode
   let footerBackground = "";
@@ -97,6 +99,7 @@ export default function FooterSocial({
                       {x && <XFooter />}
                       {linkedin && <LinkedinFooter />}
                       {threads && <ThreadsFooter />}
+                      {youtube && <Youtube />}
                     </div>
                   </div>
                 </div>
