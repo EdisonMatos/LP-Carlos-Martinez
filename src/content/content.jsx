@@ -1060,6 +1060,7 @@ const content = {
         labelX: "Siga-nos no X",
         labelThreads: "Siga-nos no Threads",
         labeltiktok: "Siga-me no TikTok",
+        labelyoutube: "Siga-me no Youtube",
       },
     },
     cta: {
