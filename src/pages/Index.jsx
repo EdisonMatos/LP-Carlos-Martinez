@@ -67,6 +67,7 @@ export default function Index() {
         x={true}
         linkedin={true}
         tiktok={true}
+        youtube={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

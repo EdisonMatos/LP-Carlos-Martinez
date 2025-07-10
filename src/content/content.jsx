@@ -124,6 +124,7 @@ export const infos = {
   x: "AcmmCarlos",
   threadsProfile: "miguezmartinez",
   tiktokProfile: "@advogadocarlosmartinez",
+  youtubeProfile: "@carlosmartinezadv",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
@@ -1482,6 +1483,7 @@ const content = {
       facebook: `https://www.facebook.com/${infos.facebookProfile}`,
       x: `https://x.com/${infos.x}`,
       linkedin: `https://www.linkedin.com/in/${infos.linkeDinProfile}`,
+      youtube: `https://www.youtube.com/${infos.youtubeProfile}`,
     },
     infos: {
       phone: `(${infos.phone.ddd}) ${infos.phone.firstPart}-${infos.phone.secondPart}`,
