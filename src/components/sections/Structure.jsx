@@ -11,7 +11,7 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 export default function Structure() {
   return (
     <div>
-      <SectionArea className="squares">
+      <SectionArea className="squares" paddingbot={false}>
         <SectionWrapper>
           <SectionHeader
             className="text-center"
