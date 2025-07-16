@@ -6,7 +6,7 @@ import content from "../../../content/content";
 function ExpedienteFooter() {
   return (
     <MotionDivDownToUp>
-      <div className="flex full gap-x-[12px] items-center text-paragraph1 opacity-90">
+      <div className="flex full gap-x-[12px] items-center text-paragraph2 opacity-90">
         <div>
           <CalendarCheck2 />
         </div>
