@@ -67,12 +67,12 @@ export default function AboutInstagram({
           <div className="flex flex-col gap-4">
             {instagram && <InstagramAbout colorMode={colorMode} />}
             {facebook && <FacebookAbout colorMode={colorMode} />}
-            {x && <XAbout colorMode={colorMode} />}
             {linkedin && <LinkedInAbout colorMode={colorMode} />}
-            {tiktok && <TikTokAbout />}
-            {instagramSecundary && <InstagramSecundaryAbout />}
             {threads && <ThreadsAbout />}
             {youtube && <YoutubeAbout />}
+            {tiktok && <TikTokAbout />}
+            {instagramSecundary && <InstagramSecundaryAbout />}
+            {x && <XAbout colorMode={colorMode} />}
           </div>
         </div>
       </SectionWrapper>

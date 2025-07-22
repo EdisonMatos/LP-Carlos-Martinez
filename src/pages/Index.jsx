@@ -45,10 +45,10 @@ export default function Index() {
         colorMode={colorMode}
         instagram={true}
         facebook={true}
+        linkedin={true}
         socialPrint={true}
         threads={true}
         x={true}
-        linkedin={true}
         tiktok={true}
         youtube={true}
       />
@@ -66,9 +66,9 @@ export default function Index() {
         expedientesecond={false}
         instagram={true}
         facebook={true}
+        linkedin={true}
         threads={true}
         x={true}
-        linkedin={true}
         tiktok={true}
         youtube={true}
       />
