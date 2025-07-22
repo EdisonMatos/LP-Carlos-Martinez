@@ -994,7 +994,7 @@ const content = {
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
       labelX: "Siga-nos no X",
-      labeltiktok: "Siga-me no TikTok",
+      labeltiktok: "Siga-nos no TikTok",
 
       paragraph: (
         <div>
@@ -1059,8 +1059,8 @@ const content = {
         labelLinkedin: "Siga-nos no LinkedIn",
         labelX: "Siga-nos no X",
         labelThreads: "Siga-nos no Threads",
-        labeltiktok: "Siga-me no TikTok",
-        labelyoutube: "Siga-me no Youtube",
+        labeltiktok: "Siga-nos no TikTok",
+        labelyoutube: "Siga-nos no Youtube",
       },
     },
     cta: {
