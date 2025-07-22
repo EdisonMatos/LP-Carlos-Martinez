@@ -2,7 +2,7 @@ import Modal from "../util/Modal";
 import content from "../../content/content";
 import { useNavigate } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import whatsappWebm from "../../assets/importAssets/whatsappGif.webp";
+import whatsappWebm from "../../assets/importAssets/whatsappGif2.png";
 import { getWhatsappLink } from "../util/WhatsappLink"; // Importando a função
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
