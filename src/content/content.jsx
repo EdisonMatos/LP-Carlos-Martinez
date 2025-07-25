@@ -92,7 +92,9 @@ export const infos = {
       <p>Rua 13 de Maio, nº 390, </p>
       <p>Ed. Attuale Trade Offices, Sala 45, Centro</p>
       <p>Farroupilha - RS, CEP 95170-428</p>
+      <br />
       <p>&</p>
+      <br />
       <p>Alameda Salvador, nº 1057,</p>
       <p>Ed. Salvador Shopping Business Cyrela,</p>
       <p>Torre América, Sala 1313,</p>
@@ -1497,7 +1499,7 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: "Endereço",
+      footerNavegacaoText: "Endereços",
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
   },
